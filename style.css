@@ -1,0 +1,94 @@
+html{
+    height: 300vh;
+}
+
+body{
+    padding:0%;
+    margin:0%;
+    height:100vh ;
+    background: #000000;
+}
+
+.section{
+    width: auto;
+    height: 80%;
+    background-image: url("img4.png");
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+    
+}
+
+.text{
+    font-size:50px;
+    padding:200px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+.section-1{
+    padding-top:5px;
+    height:100hv;
+    margin: 50px;
+    text-align: center;
+}
+
+.card-2{
+  display: flex;
+  margin:80px;
+}
+
+.h1{
+  text-transform: uppercase;
+}
+.p{
+  font-size: 40px;
+  text-align: center;
+}
+
+.text-cards{
+  color:#ffffff;
+  background-color: #b04680;
+  margin:20px;
+  padding:20px;
+}
+
+.card{
+  
+}
+
+.text-cards1{
+  color:#ffffff;
+  background-color:#7f2ae1;
+  margin:20px;
+  padding:20px;
+}
+.social{
+  color:#ffffff;
+  background-color: rgb(0, 0, 0);
+  font-size: 50px;
+  text-align:center;
+  padding:50px;
+  margin: 50px;
+ 
+
+}
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #e104f9, 0 0 20px #ffffff, 0 0 30px #7f2ae1, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #2308f0, 0 0 30px #740df9, 0 0 40px #b04680, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+  @media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
